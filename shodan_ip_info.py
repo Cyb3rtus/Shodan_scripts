@@ -5,7 +5,7 @@ api = shodan.Shodan('YOU_API_KEY_HERE')
 
 # this script print out properties of an IP address through the Shodan API.
 # Do you have several IPs in a file? Do:
-# "while read -r ips.txt; do ./shodan_ips.py $ips; done < ips.txt"
+# "while read -r ips.txt; do ./shodan_ip_info.py $ips; done < ips.txt"
 # Make sure to make the script executable with "chmod +x"
 
 
