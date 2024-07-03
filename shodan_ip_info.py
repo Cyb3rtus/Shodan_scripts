@@ -26,6 +26,7 @@ try:
     print(f"ISP: {info.get('isp', 'N/A')}")
     print(f"Hostnames: {info.get('hostnames', 'N/A')}")
     print(f"Ports: {info.get('ports', 'N/A')}")
+    print("_________________________________")
     # Add more relevant information as needed
 except shodan.APIError as e:
     print(f"Error: {e}")
