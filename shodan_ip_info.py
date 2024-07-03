@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import shodan
 import sys
-api = shodan.Shodan('YOU_API_KEY_HERE')
+api = shodan.Shodan('YOUR_API_KEY_HERE')
 
 # this script print out properties of an IP address through the Shodan API.
 # Do you have several IPs in a file? Do:
